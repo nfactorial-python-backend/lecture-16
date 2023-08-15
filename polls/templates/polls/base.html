@@ -1,0 +1,15 @@
+<html>
+<head>
+    {% load static %}
+    
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+    <title>nfactorial polls | {% block title %}{% endblock %}</title>
+</head>
+<body>
+    <p>
+        <img width=100 src="https://uploads-ssl.webflow.com/5ed0f381d2b21c219f260b60/5ee31dc8601c7f4fb62cb4c1_n17r-logo-red.png" alt="">
+    </p>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
